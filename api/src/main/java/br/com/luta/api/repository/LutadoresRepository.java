@@ -8,7 +8,5 @@ import org.springframework.stereotype.Repository;
 
 public interface LutadoresRepository extends JpaRepository<Lutadores, Integer>{
 
-    @Query("select count")
-    int lutadoresVivos();
 
 }
